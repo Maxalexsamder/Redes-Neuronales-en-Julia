@@ -8,6 +8,6 @@ Repositorio dedicado a la implementación de redes neuronales artificiales utili
 
 | Carpeta | Modelo | Descripción | Estado |
 | :--- | :--- | :--- | :--- |
-| `01-Perceptron-Simple` | **Perceptrón Unicapa** | Modelo básico de neurona artificial para problemas linealmente separables. | En desarrollo |
+| `Perceptron-Simple` | **Perceptrón Unicapa** | Modelo básico de neurona artificial para problemas linealmente separables. | En desarrollo |
 
 ---
