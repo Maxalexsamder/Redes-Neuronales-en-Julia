@@ -1,2 +1,13 @@
-# Redes-Neuronales-en-Julia
-Implementación de arquitecturas de redes neuronales desde cero en Julia
+# Redes Neuronales en Julia
+
+Repositorio dedicado a la implementación de redes neuronales artificiales utilizando **Julia**. 
+
+---
+
+### Contenido del repositorio
+
+| Carpeta | Modelo | Descripción | Estado |
+| :--- | :--- | :--- | :--- |
+| `01-Perceptron-Simple` | **Perceptrón Unicapa** | Modelo básico de neurona artificial para problemas linealmente separables. | En desarrollo |
+
+---
