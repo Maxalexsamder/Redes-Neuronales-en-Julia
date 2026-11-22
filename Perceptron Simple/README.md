@@ -9,7 +9,7 @@ Implementación de un perceptrón unicapa desarrollado en **Julia** para el reco
 Para que las rutas relativas funcionen correctamente durante la ejecución, todos los archivos y subcarpetas deben mantenerse dentro de este mismo directorio:
 
 ```text
-01-perceptron-simple/
+Perceptron-Simple/
 ├── perceptron_simple.jl          # Script principal: entrenamiento y clasificación del perceptrón
 ├── procesar_matriz.jl            # Módulo auxiliar para lectura y procesamiento de matrices
 ├── matriz_entrada.txt            # Matriz de prueba que será evaluada por el modelo
@@ -39,11 +39,11 @@ Para que las rutas relativas funcionen correctamente durante la ejecución, todo
 
 ### Proceso de ejecución
 
-1. **Comprobar archivos:** Verifica que `perceptron_simple.jl`, `procesar_matriz.jl`, `matriz_entrada.txt` y la carpeta `patrones de entrenamiento/` estén juntos dentro de `01-perceptron-simple/`.
+1. **Comprobar archivos:** Verifica que `perceptron_simple.jl`, `procesar_matriz.jl`, `matriz_entrada.txt` y la carpeta `patrones de entrenamiento/` estén juntos dentro de `Perceptron-Simple/`.
 2. **Configurar la entrada:** Abre `matriz_entrada.txt`, introduce el patrón matricial que deseas evaluar (manteniendo el formato numérico de los patrones de entrenamiento) y guarda el archivo.
 3. **Ejecutar el modelo:** Abre una terminal, ubícate en la carpeta del proyecto y lanza el script principal:
    ```bash
-   cd 01-perceptron-simple
+   cd Perceptron-Simple
    julia perceptron_simple.jl
    ```
 4. **Ver resultado:** El programa cargará `procesar_matriz.jl`, entrenará la red y mostrará directamente en la terminal la operación matemática reconocida.
